@@ -33,6 +33,11 @@ nav .container-fluid{
     box-shadow: none !important;
 }
 
+.dropdown-item:hover{
+    color: azure !important;
+    background-color: var(--primary) !important;
+}
+
 footer{
     color: var(--light);
     background-color: var(--primary);
