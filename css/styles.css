@@ -243,3 +243,29 @@ tr {
   width: 80%;
   /* text-align: center; */
 }
+
+#organizing-committee {
+  width: 60%;
+  min-width: 380px;
+  overflow-x: auto;
+  margin: auto;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  border: 1px rgb(182, 182, 182) solid;
+  border-radius: 20px;
+}
+#organizing-committee tr td:nth-child(2n + 1),
+#organizing-committee tr th:nth-child(2n + 1) {
+  width: 20%;
+  text-align: center;
+  padding-top: 0.7rem;
+  padding-bottom: 0.7rem;
+}
+#organizing-committee tr td:nth-child(2n),
+#organizing-committee tr th:nth-child(2n) {
+  width: 80%;
+  padding-left: 2rem;
+  padding-top: 0.7rem;
+  padding-bottom: 0.7rem;
+  /* text-align: center; */
+}
