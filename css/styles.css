@@ -146,7 +146,7 @@ tbody tr:nth-child(2n) {
 }
 
 #organizers {
-  width: 60%;
+  /* width: 60%; */
   margin: auto;
   margin-top: 2rem;
   margin-bottom: 2rem;
@@ -168,6 +168,7 @@ tbody tr:nth-child(2n) {
 }
 #organizers tr td:nth-child(2n) {
   width: 90%;
+  padding: 0 1rem;
   /* text-align: center; */
 }
 
@@ -245,8 +246,8 @@ tr {
 }
 
 #organizing-committee {
-  width: 60%;
-  min-width: 380px;
+  /* width: 60%;
+  min-width: 380px; */
   overflow-x: auto;
   margin: auto;
   margin-top: 2rem;
@@ -258,14 +259,16 @@ tr {
 #organizing-committee tr th:nth-child(2n + 1) {
   width: 20%;
   text-align: center;
-  padding-top: 0.7rem;
-  padding-bottom: 0.7rem;
+  /* padding-top: 0.7rem;
+  padding-bottom: 0.7rem; */
+  padding: 0.7rem 0.5rem;
 }
 #organizing-committee tr td:nth-child(2n),
 #organizing-committee tr th:nth-child(2n) {
   width: 80%;
-  padding-left: 2rem;
+  /* padding-left: 2rem;
   padding-top: 0.7rem;
-  padding-bottom: 0.7rem;
+  padding-bottom: 0.7rem; */
   /* text-align: center; */
+  padding:0.7rem 1rem;
 }
